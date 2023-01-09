@@ -1,15 +1,10 @@
 ﻿using System;
 //2023/1/9
 //Damian Grant Grobler
-namespace SumOfTwoNumbers;
+namespace CodingZone;
 
-public class SumOfTwoNumbers
+public class BasicLayout
 {
-
-    public static int Sum(int a, int b)
-    {
-        return a + b;
-    }
 
     public static void MainLogic()
     {
