@@ -1,22 +1,16 @@
 ﻿using System;
 
-namespace CodingZone // Note: actual namespace depends on the project name.
+namespace CodingZone
 {
-    internal class AreaOfTriangle
+    public class CodingZone
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            int baseNum = 0;
-            int heightNum = 0;
-            int calculation = (baseNum * heightNum) / 2;
-
-            Console.WriteLine("Please enter the base of the triangle.");
-            baseNum = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Please enter the height of the triangle.");
-            heightNum = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine(calculation);
+            Console.WriteLine("Welcome to my Coding Zone");
+            
         }
+        
     }
+
+
 }
