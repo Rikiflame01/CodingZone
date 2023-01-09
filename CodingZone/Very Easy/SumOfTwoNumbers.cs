@@ -5,7 +5,6 @@ namespace SumOfTwoNumbers;
 
 public class SumOfTwoNumbers
 {
-
     public static int Sum(int a, int b)
     {
         return a + b;
